@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Project | 912</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- 웹 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&display=swap" rel="stylesheet">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 개별 css, script 파일 작성 위치 -->
+    <script src="./scripts/index.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 헤더 -->
+        <header>
+            <div class="nav_menu">
+                <h1><a href="#"><img src="./images/footer_logo.png" alt="912 로고"></a></h1>
+                <div class="gnb">
+                    <ul>
+                        <li><a href="#" onclick="event.preventDefault()">전체상품</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">신제품</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">베스트</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">향수</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">방향제</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">탈취제</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">디퓨저</a></li>
+                    </ul>
+                </div>
+                <div class="icon_menu">
+                    <ul>
+                        <li><a href="#" onclick="event.preventDefault()"><img src="./images/icon/search_white.png" alt="검색"></a></li>
+                        <li><a href="#" onclick="event.preventDefault()"><img src="./images/icon/cart_white.png" alt="장바구니"></a></li>
+                        <li><a href="#" onclick="event.preventDefault()"><img src="./images/icon/my_page_white.png" alt="마이페이지"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- 메인 배너 -->
+        <section class="banner-section">
+            <div class="swiper banner">
+                <!-- 래퍼(슬라이드들을 감싸는 영역) -->
+                <div class="swiper-wrapper">
+                    <!-- 개별 슬라이드 -->
+                    <div class="swiper-slide">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/00.main.banner.png" alt="메인배너 이미지"></a>
+                        <div class="puffer_write_01">
+                            <h2>912 Extres</h2>
+                            <h2>Niche Perfume</h2>
+                            <p>- Aqua Sea Salt -</p>
+                            <a class="view_more" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/00.main.banner02.png" alt="메인배너 이미지2">
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Our Story -->
+        <section class="our_story">
+            <div class="left_our">
+                <a href="#" onclick="event.preventDefault()"><img src="./images/our_story.png" alt="스토리"></a>
+            </div>
+            <div class="right_our">
+                <h2>Our Story</h2>
+                <p class="our">
+                    912는 “좋은 향기는 좋은 기억을 만듭니다”라는 믿음 아래, 912번의 섬세한 연구 끝에 탄생한 라이프스타일 프래그런스 브랜드입니다.<br>
+                    우리는 향기가 단순히 순간을 스치는 감각이 아니라, 삶의 모든 장면을 더욱 특별하게 만드는 기억의 매개체라고 믿습니다.<br> 
+                    그래서 912는 매일의 공간과 시간이 조금 더 감각적이고 모던한 무드로 채워질 수 있도록,<br>
+                    향을 통해 일상에 새로운 영감을 선물합니다.
+                </p>
+                <p class="our">
+                    각 향은 세심한 조향 과정을 거쳐, 개인의 라이프스타일과 감정의 결을 섬세하게 담아냅니다.<br>
+                    따뜻한 아침의 공기, 설레는 오후의 햇살, 그리고 고요한 밤의 여운까지 — 912는 그 모든 순간에 어울리는<br>
+                    향으로 당신의 하루를 완성합니다. 향을 통해 기억을 만들고, 기억을 통해 다시 향을 떠올리는 순환 속에서<br>
+                    912는 당신의 삶 속에 자연스럽게 스며드는감각적인 동반자가 되고자 합니다.
+                </p>
+                <a class="view_more_gray" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+            </div>
+        </section>
+
+        <!-- Category -->
+        <section class="category">
+            <div class="left_section">
+                <h2>Category</h2>
+                <p>
+                    912 만의 특별한 향기<br>
+                    하루의 순간을 향기로 기록하세요
+                </p>
+            </div>
+            <div class="right_section">
+                <div class="first">
+                    <p>니치향수<br>오드 퍼퓸</p>
+                    <a href="#" onclick="event.preventDefault()"><img src="./images/01.category/category_001.png" alt="카테고리 1"></a>
+                </div>
+                <div class="second">
+                    <div class="second_01">
+                        <div class="second_cate">
+                            <p>샤쉐 방향제</p>
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/01.category/category_002.png" alt="카테고리 2"></a>
+                        </div>
+                        <div class="second_cate">
+                            <p>섬유 탈취제</p>
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/01.category/category_004.png" alt="카테고리 4"></a>
+                        </div>
+                    </div>
+                    <div class="second_01">
+                        <div class="second_cate">
+                            <p>니치향수<br>엑스트레 드 퍼퓸</p>
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/01.category/category_003.png" alt="카테고리 3"></a>
+                        </div>
+                        
+                        <div class="second_cate">
+                            <p>퍼퓸 디퓨저</p>
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/01.category/category_005.png" alt="카테고리 5"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 베스트 셀러 -->
+        <section class="best_seller">
+            <div class="best_left">
+                <h2>Best Seller<br>Product</h2>
+                <p>912만의 특별함이 담긴 베스트 아이템</p>
+                <div class="more_view_section">
+                    <div class="more_view">
+                        <ul>
+                            <li><a href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
+                            <li><a href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
+                            <li><a href="#" onclick="event.preventDefault()"># 샤쉐 방향제</a></li>
+                            <li><a href="#" onclick="event.preventDefault()"># 실내 디퓨저</a></li>
+                            <li><a href="#" onclick="event.preventDefault()"># 섬유 탈취제</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Swiper 시작 -->
+            <div class="best_right">
+                <div class="more_check">
+                    <a href="#" onclick="event.preventDefault()">더보기
+                        <img src="./images/icon/arrow_gray.png" alt="회색 화살표">
+                    </a>
+                </div>
+                <div class="swiper best_seller_list">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/02.best_seller/best_seller_001.png" alt="베스트 1"></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b">[2+1 기획] 912 섬유 탈취제</p></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b1">새로운 향수의 시작, 클론 향수</p></a>
+                            <div class="product_flex">
+                                <div class="product_detail">
+                                    <a href="#" onclick="event.preventDefault()">14,900원</a>
+                                </div>
+                                <div class="price_icon">
+                                    <a href="#" onclick="event.preventDefault()"><img class="cart" src="./images/icon/cart_black.png" alt="장바구니"></a>
+                                    <a href="#" onclick="event.preventDefault()"><img src="./images/icon/red_heart.png" alt="찜"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/02.best_seller/best_seller_002.png" alt="베스트 2"></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b">912 엑스트레 드 퍼퓸</p></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b1">912 프레그런스 1위 제품</p></a>
+                            <div class="product_flex">
+                                <div class="product_detail">
+                                    <a href="#" onclick="event.preventDefault()">40,000원</a>
+                                </div>
+                                <div class="price_icon">
+                                    <a href="#" onclick="event.preventDefault()"><img class="cart" src="./images/icon/cart_black.png" alt="장바구니"></a>
+                                    <a href="#" onclick="event.preventDefault()"><img src="./images/icon/line_heart.png" alt="찜"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/02.best_seller/best_seller_003.png" alt="베스트 3"></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b">[2+2 기획] 912 실내 방향제 퍼퓸 디퓨저</p></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b1">향수를 그대로 담은 퍼퓸 디퓨저</p></a>
+                            <div class="product_flex">
+                                <div class="product_detail">
+                                    <a href="#" onclick="event.preventDefault()">29,500원</a>
+                                </div>
+                                <div class="price_icon">
+                                    <a href="#" onclick="event.preventDefault()"><img class="cart" src="./images/icon/cart_black.png" alt="장바구니"></a>
+                                    <a href="#" onclick="event.preventDefault()"><img src="./images/icon/line_heart.png" alt="찜"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/02.best_seller/best_seller_004.png" alt="베스트 4"></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b">912 상탈 포레스트 니치 퍼퓸 샤쉐 40g</p></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b1">니치 프래그런스 감성을 그대로 담아낸</p></a>
+                            <div class="product_flex">
+                                <div class="product_detail">
+                                    <a href="#" onclick="event.preventDefault()">14,000원</a>
+                                </div>
+                                <div class="price_icon">
+                                    <a href="#" onclick="event.preventDefault()"><img class="cart" src="./images/icon/cart_black.png" alt="장바구니"></a>
+                                    <a href="#" onclick="event.preventDefault()"><img src="./images/icon/line_heart.png" alt="찜"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" onclick="event.preventDefault()"><img src="./images/02.best_seller/best_seller_005.png" alt="베스트 5"></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b">912 니치 향수</p></a>
+                            <a href="#" onclick="event.preventDefault()"><p class="best_b1">새로운 향수의 시작, 클론 향수</p></a>
+                            <div class="product_flex">
+                                <div class="product_detail">
+                                    <a href="#" onclick="event.preventDefault()">12,000원</a>
+                                </div>
+                                <div class="price_icon">
+                                    <a href="#" onclick="event.preventDefault()"><img class="cart" src="./images/icon/cart_black.png" alt="장바구니"></a>
+                                    <a href="#" onclick="event.preventDefault()"><img src="./images/icon/line_heart.png" alt="찜"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 스크롤바 -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 신상 아이템 -->
+        <section class="new_product">
+            <h2>New Product</h2>
+            <p class="daily">일상을 새롭게 채우는 912의 신제품</p>
+            <div class="new_flex">
+                <div class="new_01">
+                    <img src="./images/03.new_product/new_product_001.png" alt="신상 1">
+                    <div class="text">
+                        <p class="new">912 실내 방향제 퍼퓸 디퓨저</p>
+                        <p>09. 튤립가든</p>
+                        <p>16,500원</p>
+                        <p class="detail">단조롭지 않은 고급 향기로,<br>풍부한 향이 느껴져서 선물하기 좋은 제품</p>
+                        <a class="view_more_new" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="new_02">
+                    <img src="./images/03.new_product/new_product_002.png" alt="신상 2">
+                    <div class="text">
+                        <p class="new">912 섬유 탈취제 / 향수 멀티 스프레이</p>
+                        <p>04. 페어리 프리지아</p>
+                        <p>13,900원</p>
+                        <p class="detail">냄새 삭제에 1초면 충분하고,<br>향이 오래 지속되는 아이템</p>
+                        <a class="view_more_new" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="new_03">
+                    <img src="./images/03.new_product/new_product_003.png" alt="신상 3">
+                    <div class="text">
+                        <p class="new">912 엑스트레 드 퍼퓸</p>
+                        <p>06. 힐우드</p>
+                        <p>40,000원</p>
+                        <p class="detail">최고 등급의 향수 부향률을 선보이며,<br>가장 인기 많은 아이템</p>
+                        <a class="view_more_new" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="new_04">
+                    <img src="./images/03.new_product/new_product_004.png" alt="신상 4">
+                    <div class="text">
+                        <p class="new">912 니치 퍼퓸 샤쉐</p>
+                        <p>04. 상탈포레스트</p>
+                        <p>30,000원</p>
+                        <p class="detail">다양한 향기로 구성되어 있으며,<br>호텔로 만드는 은은한 방향제</p>
+                        <a class="view_more_new" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 향기 소개 시작 페이지 -->
+        <section class="good_per">
+            <h3>A good scents makes good memories.</h3>
+            <p class="good_perf">“ 좋은 향기는 좋은 기억을 만듭니다. “</p>
+            <p>좋은 향으로 기분 좋은 하루를 시작하고,<br>
+                잠이 드는 순간에도 편안한 향으로 마무리될 수 있도록<br>
+                향기로 더욱 감각적이고 모던한 무드의 일상을 선물 드립니다.<br>
+                시간이 지나면 서서히 잊혀지는 순간들을<br>
+                니치 향기에 새겨 오랫동안 좋은 기억으로 남길 수 있습니다.
+            </p>
+        </section>
+        
+        <!-- 베스트 향기 -->
+        <section class="best">
+            <p>912의 이달의 향기 TOP 3</p>
+            <h2>Best Fragrance</h2>
+            <div class="more_view_section">
+                <div class="more_view_best">
+                    <ul>
+                        <li><a href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 샤쉐 방향제</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 실내 디퓨저</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 섬유 탈취제</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="best_text">
+                <div class="top_text_01">
+                    <p class="num">03. 플레르 머스크</p>
+                    <p class="gray">INSPIRED BY 딥디크 - 플레르드뽀</p>
+                </div>
+                <div class="top_text_02">
+                    <p class="num">05. 화이트 블랑</p>
+                    <p class="gray">INSPIRED BY 바이레도 - 블랑쉬</p>
+                </div>
+                <div class="top_text_03">
+                    <p class="num">06. 페어리 프리지아</p>
+                    <p class="gray">INSPIRED BY 조말론 - 잉글리쉬 페어</p>
+                </div>
+            </div>
+            <div class="best_img">
+                <img src="./images/best_frag.png" alt="">
+            </div>
+            <div class="best_text_bottom">
+                <div class="bottom_text_01">
+                    <p class="gray">암브레트 씨앗 ㆍ 머스크 ㆍ 베르가못</p>
+                    <p class="black">부드럽고 파우더리한 머스크 향이<br>체취에 잘 어우러지는 살냄새를 만들어줍니다.</p>
+                    <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                </div>
+                <div class="bottom_text_02">
+                    <p class="gray">블랙 페퍼 ㆍ 릴리 ㆍ 머스크</p>
+                    <p class="black">화이트 플로럴의 순수한 향이<br>깨끗하게 마무리 되는 비누향을 표현했습니다.</p>
+                    <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                </div>
+                <div class="bottom_text_03">
+                    <p class="gray">암브레트 씨앗 ㆍ 머스크 ㆍ 베르가못</p>
+                    <p class="black">잘익은 배의 신선한 향기와<br>순결한 프리지아의 깨끗한 향을 표현했습니다.</p>
+                    <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 퍼퓸 카테고리 -->
+        <section class="best_fur">
+            <p>912의 다양한 향기들을 만나보세요</p>
+            <h2>Perfume Category</h2>
+            <div class="more_view_section">
+                <div class="more_view_best">
+                    <ul>
+                        <li><a href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 샤쉐 방향제</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 실내 디퓨저</a></li>
+                        <li><a href="#" onclick="event.preventDefault()"># 섬유 탈취제</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Swiper 시작 -->
+            <div class="swiper perfume_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="best_01">
+                            <img src="./images/04.perfume_category/perfume_category_001.png" alt="카테고리 1">
+                            <div class="text">
+                                <p class="new">01. 템플 우드</p>
+                                <p>INSPIRED BY 딥디크 - 탐다오</p>
+                                <p class="detail">샌달 우드의 감각적이고 동양적인<br>사원과 숲을 연상시키는 안개의 향</p>
+                                <a class="view_more_new_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="best_02">
+                            <img src="./images/04.perfume_category/perfume_category_002.png" alt="카테고리 2">
+                            <div class="text">
+                                <p class="new">02. 라임바질 가든</p>
+                                <p>INSPIRED BY 페라리 - 라임에센스</p>
+                                <p class="detail">상쾌한 베르가못향과 라임의 짜릿한 노트가 어우러져,<br>청량한 에너지를 선사하는 프레시 시그니처 향</p>
+                                <a class="view_more_new_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="best_03">
+                            <img src="./images/04.perfume_category/perfume_category_003.png" alt="카테고리 3">
+                            <div class="text">
+                                <p class="new">03. 캘리포니아 어반투스</p>
+                                <p>INSPIRED BY 페라리 - 라이트에센스</p>
+                                <p class="detail">베르가못 향과 캘리포니아 바다 소금의 맑고 투명한<br>프레쉬함의 조화 및 시원하고 깔끔한 향</p>
+                                <a class="view_more_new_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="best_04">
+                            <img src="./images/04.perfume_category/perfume_category_004.png" alt="카테고리 4">
+                            <div class="text">
+                                <p class="new">04. 오렌지브리즈</p>
+                                <p>INSPIRED BY 페라리 - 라임에센스</p>
+                                <p class="detail">상큼한 오렌지와 베르가못의 프레시한 조화,<br>라임의 경쾌한 스파클이 더해진 향</p>
+                                <a class="view_more_new_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="best_05">
+                            <img src="./images/04.perfume_category/perfume_category_005.png" alt="카테고리 5">
+                            <div class="text">
+                                <p class="new">05. 화이트 블랑</p>
+                                <p>INSPIRED BY 디올 - 블루밍부케</p>
+                                <p class="detail">플로럴의 순수함과 맑음을 담아,<br>투명하고 깨끗한 비누 향</p>
+                                <a class="view_more_new_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="best_06">
+                            <img class="opa" src="./images/04.perfume_category/perfume_category_006.jpg" alt="카테고리 6">
+                            <div class="text">
+                                <p class="new">06. 블랙베리</p>
+                                <p>INSPIRED BY 조말론 - 블랙베리 앤 베이</p>
+                                <p class="detail">월계수 잎의 우디 향과 블랙베리의<br>과즙이 느껴지는 프루티 향</p>
+                                <a class="view_more_new_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper 끝 -->
+        </section>
+
+        <!-- gift_fragrance -->
+        <section class="gift_frag">
+            <h3>Gift Fragrance</h3>
+            <p>선물하기 좋은 추천 아이템으로, 기억에 남는 선물을 전달해 보세요.</p>
+        </section>
+
+        <!-- 인스타그램 -->
+        <div class="insta">
+            <a href="#" onclick="event.preventDefault()"><img src="./images/icon/insta.png" alt="인스타그램 로고">912 Instagram</a>
+            <p>@ 912_official</p>
+            <div class="insta_pic">
+                <div class="top_section">
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_001.png" alt="인스타그램 1"></a>
+                        <p>온가족이 쓸 수 있는<br>자신있는 성분템</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_002.png" alt="인스타그램 2"></a>
+                        <p>지속력이 오래가는<br>샤쉐 방향제</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_003.png" alt="인스타그램 3"></a>
+                        <p>본인의 무드와 잘 어울리는<br>3가지 향수 추천템</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_004.png" alt="인스타그램 4"></a>
+                        <p>912번의 연구 끝에 탄생한<br>912만의 특별템</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_005.png" alt="인스타그램 5"></a>
+                        <p>데일리로 사용하기<br>좋은 향</p>
+                    </div>
+                </div>
+                <div class="bottom_section">
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_006.png" alt="인스타그램 6"></a>
+                        <p>방 안의 향기템,<br>멀티 스프레이</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_007.png" alt="인스타그램 7"></a>
+                        <p>특별한 향기<br>그 두번째 아이템,</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_008.png" alt="인스타그램 8"></a>
+                        <p>프래그런스 1위,<br>이유있는 선택</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_009.png" alt="인스타그램 9"></a>
+                        <p>단조롭지 않은,<br>고급의 향기템 추천</p>
+                    </div>
+                    <div class="pic_01">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_010.png" alt="인스타그램 10"></a>
+                        <p>해외에서 뜨는<br>‘클론 향수’의 세계</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot_left">
+                <p><a href="#" onclick="event.preventDefault()"><img src="./images/footer_logo.png" alt="푸터 로고"></a></p>
+                <p>(주)지티컴퍼니 | 대표 : 문성배 | 주소 : 경상남도 양산시 물금읍 부산대학로 152 , 3층 303호</p>
+                <p>사업자 등록번호 : 852-87-00950</p>
+                <p>통신판매신고번호 : 2018-경남양산-00155호</p>
+                <p>&copy; 주식회사 지티컴퍼니.All rights reserved.</p>
+            </div>
+            <div class="foot_right">
+                <p><a href="#" onclick="event.preventDefault()"><img src="./images/icon/social.png" alt="인스타 로고"></a></p>
+                <p><a href="#" onclick="event.preventDefault()"><img src="./images/icon/video.png" alt="유튜브 로고"></a></p>
+                <ul>
+                    <li>
+                        <a href="#" onclick="event.preventDefault()">고객센터 1644-1403</a>
+                        <a href="#" onclick="event.preventDefault()">주말, 공휴일 휴무</a>
+                        <a href="#" onclick="event.preventDefault()">상담시간 : 12:00 - 17:00 (점심 13:00 - 14:00)</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#" onclick="event.preventDefault()">국내 및 해외 영업문의 : sales@gtcompany.kr</a>
+                        <a href="#" onclick="event.preventDefault()">도소매 및 대량구매 문의 : wholesale@gtcompany.kr</a>
+                        <a href="#" onclick="event.preventDefault()">기타문의 : hello@gtcompany.kr</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
