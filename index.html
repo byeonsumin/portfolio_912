@@ -145,7 +145,7 @@
                 <div class="more_view_section">
                     <div class="more_view">
                         <ul>
-                            <li><a href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
+                            <li><a class="point" href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
                             <li><a href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
                             <li><a href="#" onclick="event.preventDefault()"># 샤쉐 방향제</a></li>
                             <li><a href="#" onclick="event.preventDefault()"># 실내 디퓨저</a></li>
@@ -308,8 +308,7 @@
             <div class="more_view_section">
                 <div class="more_view_best">
                     <ul>
-                        <li><a href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
-                        <li><a href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
+                        <li><a class="point" href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
                         <li><a href="#" onclick="event.preventDefault()"># 샤쉐 방향제</a></li>
                         <li><a href="#" onclick="event.preventDefault()"># 실내 디퓨저</a></li>
                         <li><a href="#" onclick="event.preventDefault()"># 섬유 탈취제</a></li>
@@ -359,11 +358,10 @@
             <div class="more_view_section">
                 <div class="more_view_best">
                     <ul>
-                        <li><a href="#" onclick="event.preventDefault()"># 전체 제품</a></li>
                         <li><a href="#" onclick="event.preventDefault()"># 니치 향수</a></li>
                         <li><a href="#" onclick="event.preventDefault()"># 샤쉐 방향제</a></li>
                         <li><a href="#" onclick="event.preventDefault()"># 실내 디퓨저</a></li>
-                        <li><a href="#" onclick="event.preventDefault()"># 섬유 탈취제</a></li>
+                        <li><a class="point" href="#" onclick="event.preventDefault()"># 섬유 탈취제</a></li>
                     </ul>
                 </div>
             </div>
@@ -442,17 +440,60 @@
         </section>
 
         <!-- gift_fragrance -->
-        <section class="gift_frag">
-            <h3>Gift Fragrance</h3>
-            <p>선물하기 좋은 추천 아이템으로, 기억에 남는 선물을 전달해 보세요.</p>
+        <section id="gift_frag">
+            <h2 class="title">Gift Fragrance</h2>
+            <p class="gift_p">선물하기 좋은 추천 아이템으로, 기억에 남는 선물을 전달해 보세요.</p>
+            <div class="swiper" id="gift_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/05.gift/gift_001.png" alt="기프트1"></a>
+                        <p>912 니치 퍼퓸 샤쉐 40g - 화이트 블랑</p>
+                        <p>10,000원</p>
+                        <p class="gray">호텔로 만드는 은은한 방향제,<br>화이트 플로럴의 순수한 향이 마무리되는 비누향</p>
+                        <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/05.gift/gift_002.png" alt="기프트2"></a>
+                        <p>912 엑스트레 드 퍼퓸 - 블랙베리</p>
+                        <p>20,000원</p>
+                        <p class="gray">최고 등급의 향수 부향률,<br>블랙베리의 풍미와 우디향의 과즙이 어우러진 향</p>
+                        <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/05.gift/gift_004.jpg" alt="기프트4"></a>
+                        <p> 912 섬유 탈취제/향수 멀티 스프레이 - 라임</p>
+                        <p>16,500원</p>
+                        <p class="gray">냄새 삭제에 1초면 충분,<br>베르가못 향과 톡쏘는 라임향의 산뜻한 향기</p>
+                        <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/05.gift/gift_003.png" alt="기프트3"></a>
+                        <p>912 실내 방향제 퍼퓸 디퓨저 - 힐우드</p>
+                        <p>16,500원</p>
+                        <p class="gray">짙은 오우드와 부드러운 바닐라의 조화,<br>단순하게 ‘나무 향’이 아닌 섬세하고 고급스러운 향</p>
+                        <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" onclick="event.preventDefault()"><img src="./images/05.gift/gift_005.png" alt="기프트5"></a>
+                        <p>912 니치 향수 - 블루 드 샹스</p>
+                        <p>20,000원</p>
+                        <p class="gray">적당한 농도의 스킨향기와 우디노트,<br>세련되고 강렬한 향기의 존재감</p>
+                        <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </section>
+
+
 
         <!-- 인스타그램 -->
         <div class="insta">
-            <a href="#" onclick="event.preventDefault()"><img src="./images/icon/insta.png" alt="인스타그램 로고">912 Instagram</a>
-            <p>@ 912_official</p>
-            <div class="insta_pic">
-                <div class="top_section">
+            <a class="insta_logo" href="#" onclick="event.preventDefault()"><img src="./images/icon/insta.png" alt="인스타그램 로고">912 Instagram</a>
+            <p class="off">@ 912_official</p>
+            <div class="insta_sec">
+                <div class="insta_flex_01">
                     <div class="pic_01">
                         <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_001.png" alt="인스타그램 1"></a>
                         <p>온가족이 쓸 수 있는<br>자신있는 성분템</p>
@@ -474,7 +515,7 @@
                         <p>데일리로 사용하기<br>좋은 향</p>
                     </div>
                 </div>
-                <div class="bottom_section">
+                <div class="insta_flex_02">
                     <div class="pic_01">
                         <a href="#" onclick="event.preventDefault()"><img src="./images/06.instagram/insta_006.png" alt="인스타그램 6"></a>
                         <p>방 안의 향기템,<br>멀티 스프레이</p>
@@ -497,32 +538,39 @@
                     </div>
                 </div>
             </div>
+            <a class="view_more_gray_02" href="#" onclick="event.preventDefault()">VIEW MORE</a>
         </div>
+
+        <!-- 푸터 -->
         <footer>
             <div class="foot_left">
                 <p><a href="#" onclick="event.preventDefault()"><img src="./images/footer_logo.png" alt="푸터 로고"></a></p>
                 <p>(주)지티컴퍼니 | 대표 : 문성배 | 주소 : 경상남도 양산시 물금읍 부산대학로 152 , 3층 303호</p>
                 <p>사업자 등록번호 : 852-87-00950</p>
                 <p>통신판매신고번호 : 2018-경남양산-00155호</p>
-                <p>&copy; 주식회사 지티컴퍼니.All rights reserved.</p>
+                <p class="cop">&copy; 주식회사 지티컴퍼니.All rights reserved.</p>
             </div>
             <div class="foot_right">
-                <p><a href="#" onclick="event.preventDefault()"><img src="./images/icon/social.png" alt="인스타 로고"></a></p>
-                <p><a href="#" onclick="event.preventDefault()"><img src="./images/icon/video.png" alt="유튜브 로고"></a></p>
-                <ul>
-                    <li>
-                        <a href="#" onclick="event.preventDefault()">고객센터 1644-1403</a>
-                        <a href="#" onclick="event.preventDefault()">주말, 공휴일 휴무</a>
-                        <a href="#" onclick="event.preventDefault()">상담시간 : 12:00 - 17:00 (점심 13:00 - 14:00)</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#" onclick="event.preventDefault()">국내 및 해외 영업문의 : sales@gtcompany.kr</a>
-                        <a href="#" onclick="event.preventDefault()">도소매 및 대량구매 문의 : wholesale@gtcompany.kr</a>
-                        <a href="#" onclick="event.preventDefault()">기타문의 : hello@gtcompany.kr</a>
-                    </li>
-                </ul>
+                <div class="foot_icon">
+                    <p><a href="#" onclick="event.preventDefault()"><img class="so_ico" src="./images/icon/social.png" alt="인스타 로고"></a></p>
+                    <p><a href="#" onclick="event.preventDefault()"><img class="video_ico" src="./images/icon/video.png" alt="유튜브 로고"></a></p>
+                </div>
+                <div class="foot_text">
+                    <ul>
+                        <li>
+                            <p><a href="#" onclick="event.preventDefault()">고객센터 1644-1403</a></p>
+                            <p><a href="#" onclick="event.preventDefault()">주말, 공휴일 휴무</a></p>
+                            <p><a href="#" onclick="event.preventDefault()">상담시간 : 12:00 - 17:00 (점심 13:00 - 14:00)</a></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><a href="#" onclick="event.preventDefault()">국내 및 해외 영업문의 : sales@gtcompany.kr</a></p>
+                            <p><a href="#" onclick="event.preventDefault()">도소매 및 대량구매 문의 : wholesale@gtcompany.kr</a></p>
+                            <p><a href="#" onclick="event.preventDefault()">기타문의 : hello@gtcompany.kr</a></p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </div>
